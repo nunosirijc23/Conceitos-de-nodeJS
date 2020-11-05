@@ -81,7 +81,6 @@ describe("Repositories", () => {
       .post("/repositories")
       .send({
         url: "https://github.com/Rocketseat/umbriel",
-        title: "Umbriel",
         techs: ["React", "ReactNative", "TypeScript", "ContextApi"]
       });
 
